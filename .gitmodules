@@ -1,0 +1,21 @@
+[submodule "libraries/Adafruit_BusIO"]
+	path = libraries/Adafruit_BusIO
+	url = https://github.com/adafruit/Adafruit_BusIO.git
+[submodule "libraries/Adafruit-GFX-Library"]
+	path = libraries/Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library.git
+[submodule "libraries/Adafruit_LED_Backpack"]
+	path = libraries/Adafruit_LED_Backpack
+	url = https://github.com/adafruit/Adafruit_LED_Backpack.git
+[submodule "libraries/Adafruit_VEML7700"]
+	path = libraries/Adafruit_VEML7700
+	url = https://github.com/adafruit/Adafruit_VEML7700.git
+[submodule "libraries/RTClib"]
+	path = libraries/RTClib
+	url = https://github.com/adafruit/RTClib.git
+[submodule "libraries/Time"]
+	path = libraries/Time
+	url = https://github.com/PaulStoffregen/Time.git
+[submodule "libraries/TimeZoneInfo"]
+	path = libraries/TimeZoneInfo
+	url = https://github.com/chudsaviet/TimeZoneInfo.git

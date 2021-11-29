@@ -127,6 +127,24 @@ set(LIBRARY_SRCS
   libraries/WiFi/src/WiFiUdp.cpp
   libraries/WiFiProv/src/WiFiProv.cpp
   libraries/Wire/src/Wire.cpp
+  libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp
+  libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp
+  libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp
+  libraries/Adafruit-GFX-Library/Adafruit_SPITFT.cpp
+  libraries/Adafruit-GFX-Library/Adafruit_GFX.cpp
+  libraries/Adafruit-GFX-Library/Adafruit_MonoOLED.cpp
+  libraries/Adafruit_LED_Backpack/Adafruit_LEDBackpack.cpp
+  libraries/Adafruit_VEML7700/Adafruit_VEML7700.cpp
+  libraries/RTClib/src/RTC_Micros.cpp
+  libraries/RTClib/src/RTC_PCF8563.cpp
+  libraries/RTClib/src/RTC_DS3231.cpp
+  libraries/RTClib/src/RTC_Millis.cpp
+  libraries/RTClib/src/RTClib.cpp
+  libraries/RTClib/src/RTC_DS1307.cpp
+  libraries/RTClib/src/RTC_PCF8523.cpp
+  libraries/Time/DateStrings.cpp
+  libraries/Time/Time.cpp
+  libraries/TimeZoneInfo/TimeZoneInfo.cpp
   )
 
 set(BLE_SRCS
@@ -194,6 +212,13 @@ set(includedirs
   libraries/WiFi/src
   libraries/WiFiProv/src
   libraries/Wire/src
+  libraries/Adafruit_BusIO
+  libraries/Adafruit-GFX-Library
+  libraries/Adafruit_LED_Backpack
+  libraries/Adafruit_VEML7700
+  libraries/RTClib/src
+  libraries/Time
+  libraries/TimeZoneInfo
   )
 
 set(srcs ${CORE_SRCS} ${LIBRARY_SRCS} ${BLE_SRCS})
